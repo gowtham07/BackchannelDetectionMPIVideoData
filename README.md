@@ -23,3 +23,5 @@ After downloading these files the location of the files must be changed in the p
 The following npy files are the only files needs to be downloaded from the above link:
 
 features_face_674_90.npy ,labels_face_674_90.npy ,features_pose_76_90.npy ,labels_pose_76_90.npy, features_test_face_674_90.npy ,labels_test_face_674_90.npy, features_test_pose_76_90.npy ,labels_test_pose_76_90.npy
+
+This project backchannel detection along with other project backchannel estimation is submitted to IJCNN'23 and is accepted (https://arxiv.org/abs/2306.01656)
