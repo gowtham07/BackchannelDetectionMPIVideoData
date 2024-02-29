@@ -15,7 +15,21 @@ robots
 
 Refer to the base report for full understanding of our experiment : https://drive.google.com/file/d/1XLZRns5FUpb33731iPfz5u1UrFK_jzQ2/view?usp=sharing
 
-The above python notebook and report serves as the base for further experiments. We did further experiments on different fusion techniques in transformers for the same task
+The above python notebook and report serves as the base for further experiments. We did further experiments on different fusion techniques in transformers for the same task.
+
+We perform the below fusion techniques:
+
+- **one-stream**
+- **one-to-one stream**
+- **One-to-Two stream**
+- **Two-to-One stream**
+- **Cross Attention**
+- **Cross-to-one Stream**
+
+
+After extensive evaluation we find out that simple one-stream serves the purpose for backchannel detection
+
+CheckOut leaderboard for this comeptiton. [Leaderboard](https://multimediate-challenge.org/leaderboards/leaderboard_backchannel/)
 
 This project backchannel detection along with other project backchannel estimation is submitted to IJCNN'23 and is accepted. [Official Paper](https://arxiv.org/abs/2306.01656)
 
