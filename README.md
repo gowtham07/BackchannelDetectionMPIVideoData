@@ -13,15 +13,10 @@ tion. Predicting a backchannel can be beneficial
 for building human like conversational agents or
 robots
 
-Refer to the report for full understanding of our experiment : https://drive.google.com/file/d/1XLZRns5FUpb33731iPfz5u1UrFK_jzQ2/view?usp=sharing
+Refer to the base report for full understanding of our experiment : https://drive.google.com/file/d/1XLZRns5FUpb33731iPfz5u1UrFK_jzQ2/view?usp=sharing
 
-The above python notebook has the code for the "Backchannel detection". 
-To run the python notebook we need '.npy' numpy files which are nothing but explicitly extracted input features of the video dataset(more info on dataset in the report).
-The '.npy' files are available here : https://drive.google.com/file/d/1XLZRns5FUpb33731iPfz5u1UrFK_jzQ2/view?usp=sharing.
-After downloading these files the location of the files must be changed in the python notebook accordingly.
+The above python notebook and report serves as the base for further experiments. We did further experiments on different fusion techniques in transformers for the same task
 
-The following npy files are the only files needs to be downloaded from the above link:
+This project backchannel detection along with other project backchannel estimation is submitted to IJCNN'23 and is accepted. [Official Paper](https://arxiv.org/abs/2306.01656)
 
-features_face_674_90.npy ,labels_face_674_90.npy ,features_pose_76_90.npy ,labels_pose_76_90.npy, features_test_face_674_90.npy ,labels_test_face_674_90.npy, features_test_pose_76_90.npy ,labels_test_pose_76_90.npy
-
-This project backchannel detection along with other project backchannel estimation is submitted to IJCNN'23 and is accepted (https://arxiv.org/abs/2306.01656)
+Refer to our official code where we experiment with different fusion tchniques menioned in the published paper. [CodeRepo](https://git.opendfki.de/body_language/ijcnn23-backchannel-detection)
