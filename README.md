@@ -1,4 +1,4 @@
-# Backchannel_detection:
+# Backchannel Detection:
 
 Backchanneling during a conversation occurs when
 one participant is speaking and another participant
